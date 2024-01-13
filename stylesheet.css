@@ -1,0 +1,249 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f2ed;
+    max-width: 60rem;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(148, 236, 168);
+}
+
+.header img {
+    justify-content: flex-start;
+    height: 90%;
+    margin-left: 1rem;
+}
+
+.header ul{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.header li{
+    display: inline;
+    margin-left: 1rem;
+    color: black;
+    font-size: 1.1rem;
+    font-family: "Afacad";
+}
+
+.header li:hover{
+    font-weight: 900;
+}
+
+.header li:active{
+    color: rgb(202, 54, 54, 80%);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 10rem);
+    margin: 1rem;
+    align-items: center;
+}
+
+.hero-info {
+    grid-column: 1 / 6;
+    grid-row: 2;
+    z-index: 3;
+    color: #f3f2ed;
+    background-color: rgb(202, 54, 54, 80%);
+    padding: 1rem;
+    font-family: "Roboto";
+}
+
+.hero-info h1{
+    font-family: "Afacad";
+}
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    grid-column: 1 / 9;
+    grid-row: 1 / 4;
+    object-fit: cover;
+}
+
+.Delivery-Type{
+    display: flex;
+    height: 6rem;
+    margin: 1rem;
+    background-color: #f3f2ed;
+}
+
+.Delivery-Type h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-family: "Afacad";
+}
+
+.Delivery-Type ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+.Delivery-Type li{
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.Delivery-Type img{
+    margin-right: 0.2rem;
+}
+
+.Tracking{
+    height: 10rem;
+    text-align: center;
+}
+
+.Tracking h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad";
+}
+
+.Tracking input{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 2rem;
+    width: 75%;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: .75rem;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.Tracking button{
+    padding: .5rem 1rem;
+    background-color: rgb(202, 54, 54);
+    border: none;
+    color: #f3f2ed;
+    margin: 1rem;
+    font-family: "Afacad";
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.Tracking button:hover{
+    background-color: rgb(222, 74, 74);
+}
+
+.Tracking button:active{
+    background-color: rgb(182, 34, 34);
+}
+
+.Package-Pickup{
+    margin: 1rem;
+    background-color: rgb(148, 236, 168);
+    height: 20%;
+    text-align: center;
+    font-family: "Afacad";
+}
+
+.Package-Pickup h3{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Package-Pickup input{
+    height: 2rem;
+    width: 25%;
+    margin: 1rem;
+    font-size: .75rem;
+    font-family: "Roboto";
+}
+
+.Ft{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.PackageInfo{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.Package-Pickup button{
+    padding: .5rem 1rem;
+    background-color: rgb(202, 54, 54);
+    border: none;
+    color: #f3f2ed;
+    margin: 1rem;
+    font-family: "Afacad";
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.Package-Pickup button:hover{
+    background-color: rgb(222, 74, 74);
+}
+
+.Package-Pickup button:active{
+    background-color: rgb(182, 34, 34);
+}
+
+.Policies{
+    background-color: #f3f2ed;
+    margin: 1rem;
+}
+
+.Policies h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad";
+    padding: 1rem;
+}
+
+.Policies h4,p{
+    font-family: "Roboto";
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(148, 236, 168);
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+    height: 80%;
+}
+
+
